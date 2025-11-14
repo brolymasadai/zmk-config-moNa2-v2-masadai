@@ -186,7 +186,7 @@
         MOUSE {
             bindings = <
 &trans  &trans    &trans    &trans    &trans                    &trans    &kp LC(W)  &trans     &trans    &trans
-&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &mkp MB5  &mkp MB1   &mkp MB2   &mkp MB3  &trans
+&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &mkp MB5  &mkp MB1   &mkp MB3   &mkp MB2  &trans
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans    &mkp MB4   &kp LC(R)  &trans    &trans
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                    &trans
             >;
@@ -207,7 +207,7 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &trans  &trans                     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
 &trans  &trans  &trans  &trans  &trans            &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans                          &kp F12
