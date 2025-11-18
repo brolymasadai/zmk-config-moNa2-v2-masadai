@@ -59,11 +59,6 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
-
-        d {
-            bindings = <&kp D>;
-            key-positions = <6 30>;
-        };
     };
 
     macros {
