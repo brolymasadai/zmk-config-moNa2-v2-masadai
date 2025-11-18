@@ -33,7 +33,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-
 #define MOUSE 4
 #define SCROLL 5
 
@@ -59,21 +58,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-        };
-
-        a {
-            bindings = <&kp A>;
-            key-positions = <17 19>;
-        };
-
-        b {
-            bindings = <&kp B>;
-            key-positions = <18 29>;
-        };
-
-        c {
-            bindings = <&kp C>;
-            key-positions = <16 17>;
         };
     };
 
