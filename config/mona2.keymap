@@ -50,7 +50,7 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
+        FUNCTIONlayer_ESC {
             bindings = <&lt 7 ESC>;
             key-positions = <39 38>;
         };
