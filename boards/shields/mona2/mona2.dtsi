@@ -97,19 +97,6 @@
             <&zip_temp_layer 4 800>;                              //オートマウスレイヤーの選択
     };
 
-&zip_temp_layer {
-    excluded-positions = <
-        6 // u
-        7 // i
-        16 // h
-        17 // j
-        18 // k
-        19 // l
-        29 // m
-        30 // ,
-    >;
-};
-
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
