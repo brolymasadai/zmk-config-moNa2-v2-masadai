@@ -36,6 +36,10 @@
 #define MOUSE 4
 #define SCROLL 5
 
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 4 800>;
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
