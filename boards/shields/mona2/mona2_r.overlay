@@ -2,6 +2,18 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
+&zip_temp_layer {
+    excluded-positions = <
+        6 // u
+        7 // i
+        16 // h
+        17 // j
+        18 // k
+        19 // l
+        29 // m
+        30 // ,
+    >;
+};
 
 &default_transform {
     col-offset = <6>;
